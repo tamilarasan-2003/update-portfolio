@@ -1,17 +1,18 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 header ul li{
   @apply px-6;
 
 }
 .bg-primary{
-  background:  rgb(78, 78, 158);
+  background:rgb(26, 9, 180);
 }
+/* .bg-secondary{
+  background: rgb(226, 229, 243)
+} */
 .mobile{
-  @apply fixed top-10 left-0 bg-gray-600 h-1/6 w-full;
+  @apply fixed top-10 left-0 bg-violet-600 h-1/6 w-full;
 }
 .mobile li{
   @apply w-full h-full text-center border-b-2;
