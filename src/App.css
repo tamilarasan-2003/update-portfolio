@@ -6,14 +6,20 @@ header ul li{
 
 }
 .bg-primary{
-  background:rgb(26, 9, 180);
+  background:rgb(209, 126, 30);
 }
-/* .bg-secondary{
-  background: rgb(226, 229, 243)
-} */
+.bg-secondary{
+  background: rgb(218, 193, 148)
+}
 .mobile{
-  @apply fixed top-10 left-0 bg-violet-600 h-1/6 w-full;
+  @apply fixed top-10 left-0 bg-[rgb(209,159,66)] h-1/4 w-full;
 }
 .mobile li{
   @apply w-full h-full text-center border-b-2;
+}
+.btn{
+  @apply  px-5 py-2 font-bold border-2 hover:border-blue-300 bg-amber-950;
+}
+html{
+  scroll-behavior: smooth;
 }
